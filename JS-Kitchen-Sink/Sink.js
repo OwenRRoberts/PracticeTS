@@ -2,16 +2,16 @@
 var myName = 'owen'; //s4 name value
 var stateNum = 50; //s5
 var sum = 5 + 4; //s6
-function sayHello() {
+function sayHi(string) {
     alert('Hello World');
 }
-sayHello();
+sayHi();
 function checkAge(personName, age) {
     if (age < 21) {
-        return console.log('Sorry ' + personName + ', you are not old enought to view this page');
+        return console.log("Sorry " + personName + ", you are not old enought to view this page");
     }
     else {
-        console.log('Welcome ' + personName);
+        console.log("Welcome " + personName);
     }
 }
 /*checkAge('Charles', 21;)

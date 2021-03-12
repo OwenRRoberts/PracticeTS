@@ -2,17 +2,17 @@ let myName: string = 'owen';  //s4 name value
 const stateNum: number = 50; //s5
 let sum = 5 + 4; //s6
 
-function sayHello() {  //s8
+function sayHi(string) {  //s8
     alert('Hello World');
 }
 
-sayHello();
+sayHi();
 
 function checkAge(personName: string, age: number) {
     if (age < 21) {
-        return console.log('Sorry ' + personName + ', you are not old enought to view this page')
+        return console.log(`Sorry ${personName}, you are not old enought to view this page`)
     } else{
-        console.log('Welcome ' + personName);
+        console.log(`Welcome ${personName}`);
     }
 }
 
